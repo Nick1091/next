@@ -1,0 +1,10 @@
+$bg: #1c1933;
+$txtWhite: #fff;
+$txtBlack: #000000;
+
+@mixin container($width) {
+  max-width: $width;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}

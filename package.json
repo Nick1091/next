@@ -2,8 +2,10 @@
   "name": "next",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 5000",
+    "dev:turbo": "next dev --port 5000 --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -17,6 +19,9 @@
     "next": "13.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sass": "^1.63.3",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
     "typescript": "5.1.3"
   }
 }
